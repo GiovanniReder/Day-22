@@ -647,15 +647,18 @@ footer a {
     font-size: 2em;
   }
 }
-aside {
+aside p {
   position: relative;
 }
 #divRelative {
   position: relative;
 }
 
-.fa-tag {
+#fa-tag {
   position: absolute;
-  line-height: 4;
+  line-height: 0;
   right: 1px;
+  font-size: 4em;
+  top: 80%;
+  color: #cdcdcd;
 }
